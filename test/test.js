@@ -67,7 +67,7 @@ describe('deep-filter', function () {
     });
 
     describe('object input', function () {
-        it('should filter entries recursively', function(){
+        it('should filter entries recursively', function () {
             expect(filter({ foo: null }, notEmpty)).to.eql({});
             assertCalls(1);
 
@@ -86,7 +86,7 @@ describe('deep-filter', function () {
     });
 
     describe('array input', function () {
-        it('should filter entries recursively', function(){
+        it('should filter entries recursively', function () {
             expect(filter([null], notEmpty)).to.eql([]);
             assertCalls(1);
 
