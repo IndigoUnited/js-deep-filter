@@ -33,9 +33,11 @@ function notEmpty(value, prop, subject) {
 
     if (typeof value === 'string') {
         subject[prop] = value = value.trim();
+
+        return value.length > 0;
     }
 
-    return !!value;
+    return value != null;
 }
 
 function assertCalls(expected) {
