@@ -14,7 +14,6 @@ Recursively filters collections (arrays and objects).
 // Example 1 - Remove all strings equal to 'foo'
 var deepfilter = require('deep-filter');
 
-
 deepfilter({
     prop1: 'foo',
     prop2: ['foo', 'bar'],
