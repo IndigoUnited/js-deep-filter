@@ -5,10 +5,16 @@ Recursively filters collections (arrays and objects).
 
 ## Installation
 
-`$ npm install deep-filter`
+`$ npm install deep-filter` - `NPM`   
+`$ bower install deep-filter` - `bower`
+
+The browser file is named `index.umd.js` which supports CommonJS, AMD and globals (`deepFilter`).
+If you want to run this module on old browsers, you must include [es5-shim](https://github.com/es-shims/es5-shim).
 
 
 ## Usage
+
+Examples bellow are based on `nodejs`.
 
 ```js
 // Example 1 - Remove all strings equal to 'foo'
