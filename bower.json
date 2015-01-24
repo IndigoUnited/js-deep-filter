@@ -1,6 +1,6 @@
 {
   "name": "deep-filter",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Recursively filters collection values (arrays and objects)",
   "main": "index.umd.js",
   "homepage": "https://github.com/IndigoUnited/js-deep-filter",
