@@ -1,4 +1,4 @@
-# deep-filter [![Build Status](https://travis-ci.org/IndigoUnited/node-deep-filter.svg?branch=master)](https://travis-ci.org/IndigoUnited/node-deep-filter)
+# deep-filter [![Build Status](https://travis-ci.org/IndigoUnited/js-deep-filter.svg?branch=master)](https://travis-ci.org/IndigoUnited/js-deep-filter)
 
 Recursively filters collections (arrays and objects).
 
