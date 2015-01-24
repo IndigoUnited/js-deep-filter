@@ -4,14 +4,15 @@
   "description": "Recursively filters collection values (arrays and objects)",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -R spec --bail"
+    "test": "mocha -R spec --bail",
+    "browserify": "browserify -s deep-filter index.js > index.umd.js"
   },
   "bugs": {
-    "url": "https://github.com/IndigoUnited/node-deep-filter/issues/"
+    "url": "https://github.com/IndigoUnited/js-deep-filter/issues/"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/IndigoUnited/node-deep-filter.git"
+    "url": "git://github.com/IndigoUnited/js-deep-filter.git"
   },
   "keywords": [
     "filter",
@@ -23,6 +24,7 @@
   "author": "IndigoUnited <hello@indigounited.com> (http://indigounited.com)",
   "license": "MIT",
   "devDependencies": {
+    "browserify": "^8.1.1",
     "expect.js": "^0.3.1",
     "mocha": "^2.1.0"
   },
