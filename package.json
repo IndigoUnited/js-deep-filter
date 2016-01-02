@@ -1,6 +1,6 @@
 {
   "name": "deep-filter",
-  "version": "0.1.2",
+  "version": "1.0.0",
   "description": "Recursively filters collection values (arrays and objects)",
   "main": "index.js",
   "scripts": {
