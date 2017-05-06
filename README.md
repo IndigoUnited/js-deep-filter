@@ -9,7 +9,7 @@
 [travis-image]:http://img.shields.io/travis/IndigoUnited/js-deep-filter/master.svg
 [david-dm-url]:https://david-dm.org/IndigoUnited/js-deep-filter
 [david-dm-image]:https://img.shields.io/david/IndigoUnited/js-deep-filter.svg
-[david-dm-dev-url]:https://david-dm.org/IndigoUnited/js-deep-filter#info=devDependencies
+[david-dm-dev-url]:https://david-dm.org/IndigoUnited/js-deep-filter?type=dev
 [david-dm-dev-image]:https://img.shields.io/david/dev/IndigoUnited/js-deep-filter.svg
 
 Recursively filters collections (arrays and objects).
